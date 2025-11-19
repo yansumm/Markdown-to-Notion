@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+
+# Environment specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# History folder
+.history/
+
+# macOS version (source files; we've adapted the functionality for Windows)
+macos_version/
+
+# Old files no longer needed
+scripts/
+draft/
+
+# Test files
+simple-test.md
+complex.md
+
+# Binary files
+*.exe
+*.dll
+*.bin
+.git/
+
+AutoHotkey/

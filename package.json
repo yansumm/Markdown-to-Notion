@@ -1,0 +1,29 @@
+{
+  "name": "md2notion",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Convert Markdown (with LaTeX $...$ / $$...$$) to Notion blocks and append to a target page. Windows version with context menu and clipboard support.",
+  "main": "upload-md-to-notion.js",
+  "scripts": {
+    "start": "node upload-md-to-notion.js",
+    "demo": "node upload-md-to-notion.js examples/sample.md"
+  },
+  "keywords": [
+    "notion",
+    "markdown",
+    "windows",
+    "equation",
+    "latex",
+    "clipboard",
+    "context-menu"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "@tryfabric/martian": "1.2.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
